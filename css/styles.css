@@ -1,3 +1,7 @@
+html{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 200;
+}
 #header{
   background: url(images/h_img.jpg);
   background-position: center;
@@ -18,12 +22,12 @@ h2{
   text-align: center;
 }
 #logo{
-  margin-left: 46%;
+  margin-left: 7%;
   margin-top: 10%;
   margin-bottom: 5%;
 }
 #click{
-  margin-left: 20%;
+  margin-left: 7%;
   margin-top: 10%;
   margin-bottom: 5%;
 }
@@ -32,12 +36,12 @@ h2{
   background-repeat: no-repeat;
   text-align: center;
 }
-.paragraph .about{
+.paragraph.about{
   color:black;
 }
 .paragraph.services{
   color: white;
-  background-image: url(images/c_image.jpg);
+  background-image: url(images/s_image.jpg);
 }
 .hidden {
   display: none;
