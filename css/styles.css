@@ -80,7 +80,7 @@ h3{
   height: 210px;
 }
 .feedback{
-  background-image: url(images/c_image.jpg);
+  background-image: url("../img/c_image.jpg");
   color: white;
 }
 textarea {
