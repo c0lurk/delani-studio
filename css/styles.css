@@ -28,7 +28,6 @@ h2{
   margin-bottom: 5%;
 }
 .paragraph{
-  background-image: url(images/c_image.jpg);
   background-size: 100%,100%;
   background-repeat: no-repeat;
   text-align: center;
@@ -38,6 +37,7 @@ h2{
 }
 .paragraph.services{
   color: white;
+  background-image: url(images/c_image.jpg);
 }
 .hidden {
   display: none;
