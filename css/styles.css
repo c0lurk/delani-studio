@@ -56,8 +56,9 @@ h3{
   opacity: 0.3;
 }
 .col-md-3 img {
-  width: 210px;
+  width: 260px;
   height: 210px;
+  padding: 5%;
 }
 .feedback{
   background-image: url("../img/c_image.jpg");
@@ -85,4 +86,15 @@ textarea {
 }
 .product-hidden {
   display: none;
+}
+.img-class{
+  padding: 5%;
+  margin-left: 30%;
+}
+.portfolio{
+  margin: 5%;
+}
+h3{
+   padding: 5%;
+  margin-left: 30%; 
 }
