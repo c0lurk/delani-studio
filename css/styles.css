@@ -1,6 +1,6 @@
 html body{
   font-family: 'Bubblegum Sans';
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 200;
 }
 #header{
@@ -60,10 +60,6 @@ h3{
   height: 210px;
   padding: 5%;
 }
-.feedback{
-  background-image: url("../img/c_image.jpg");
-  color: white;
-}
 textarea {
   border-radius: 5px;
   background: rgb(0, 0, 0);
@@ -97,4 +93,40 @@ textarea {
 h3{
    padding: 5%;
   margin-left: 30%; 
+}
+.contact-us{
+  background: url(images/c_image.jpg);
+  background-position: center;
+  background-size: 100%,100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  text-transform: uppercase;
+}
+.contact-us image{
+ height: 100%;
+ width: 100%;
+}
+#contact-header{
+  padding: 2%;
+}
+::placeholder{
+  color: white;
+}
+input[type="text"]{
+  background: rgba(0, 0, 0, 0);
+    margin-right: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+input[type="email"]{
+  background: rgba(0, 0, 0, 0);
+    margin-left: 100%;
+    width: 100%;
+    box-sizing: border-box
+}
+#name{
+  display: inline-block;
+}
+#email{
+  display: inline-block;
 }
