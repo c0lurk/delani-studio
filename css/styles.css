@@ -52,25 +52,7 @@ h3{
 .hidden {
   display: none;
 }
-.design{
-  margin-left: 13%;
-}
-.design-hidden{
-  display: none;
-}
-#development{
-  margin-left: 45%;
-  margin-top: -9%;
-}
-.development-hidden{
-  display: none;
-}
-.product-hidden{
-  display: none;
-}
-#product{
-  margin-left: 85%;
-  margin-top: -10%;
+.paragraphs{
 }
 .col-md-3:hover {
   opacity: 0.3;
@@ -96,4 +78,13 @@ textarea {
 }
 .footer{
   margin-left: 40%;
+}
+.design-hidden {
+  display: none;
+}
+.development-hidden {
+  display: none;
+}
+.product-hidden {
+  display: none;
 }
