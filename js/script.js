@@ -16,3 +16,8 @@ $(document).ready(function() {
     $(".product-showing").toggle();
   });
 });
+$(document).ready(function{
+  $(button[type=submit]).click(
+    alert(" we have received your message. Thank you fro reaching out to us. **")
+  )
+})
