@@ -95,12 +95,10 @@ h3{
   margin-left: 30%; 
 }
 .contact-us{
-  background: url(images/c_image.jpg);
-  background-position: center;
-  background-size: 100%,100%;
-  background-repeat: no-repeat;
-  text-align: center;
-  text-transform: uppercase;
+  color: white;
+  background-image: url(images/c_image.jpg);
+  align-content: center;
+  margin-left: 5%;
 }
 .contact-us image{
  height: 100%;
@@ -133,4 +131,11 @@ input[type="email"]{
 .paragraphs{
   text-align: center;
   display: none;
+}
+div[id="4"] {
+  background-image: url(../images/c_image.jpg);
+  background-size: 100%,100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center;
 }
