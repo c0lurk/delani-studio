@@ -130,3 +130,7 @@ input[type="email"]{
 #email1{
   display: inline-block;
 }
+.paragraphs{
+  text-align: center;
+  display: none;
+}
