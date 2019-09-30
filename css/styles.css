@@ -124,9 +124,9 @@ input[type="email"]{
     width: 100%;
     box-sizing: border-box
 }
-#name{
+#name1{
   display: inline-block;
 }
-#email{
+#email1{
   display: inline-block;
 }

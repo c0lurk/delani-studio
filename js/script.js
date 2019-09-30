@@ -1,3 +1,11 @@
+//pure js
+//fetch inputs from form
+var names=document.getElementById("name").value;
+var emails=document.getElementById("email").value;
+function inputs(){
+  alert(names+"we have received your message. Thank you for reaching out to us.")
+};
+//jquery
 $(document).ready(function() {
   $(".clickable1").click(function() {
     $(".design-hidden").toggle();
@@ -18,6 +26,6 @@ $(document).ready(function() {
 });
 $(document).ready(function{
   $(button[type=submit]).click(
-    alert(" we have received your message. Thank you fro reaching out to us. **")
+    alert(names +"we have received your message. Thank you for reaching out to us.")
   )
 })
